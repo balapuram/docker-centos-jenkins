@@ -24,5 +24,5 @@ Alternately, you can run the following if you have *GNU Make* installed...
 
 ## Container Creation / Running
 
-docker run  -it -d --privileged -p 8080:8080 -v akka_stream1:/var/lib/jenkins -v /var/run/docker.sock:/var/run/docker.sock balapuram/dal_jenkins:1
+docker run  -it -d --privileged -p 8080:8080 -v Akka_stream:/var/lib/jenkins -v /var/run/docker.sock:/var/run/docker.sock balapuram/dal_jenkins:1
 
