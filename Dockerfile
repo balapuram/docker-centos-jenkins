@@ -1,6 +1,6 @@
 FROM balapuram/centos-base:centos7
 
-MAINTAINER Bhaskar Balapuram <bbalapuram@sapient.com>
+MAINTAINER Bhaskar Balapuram 
 #Installing reqeired tools for CI Container.
 RUN yum -y install wget git tar python-pip
 RUN pip install databricks-cli
