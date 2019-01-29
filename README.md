@@ -9,7 +9,7 @@ The build is based on [docker.io/balapuram/centos-base][docker-centos-base].
 ## Included packages (and their dependencies)
 
 * Jenkins
-* OpenJDK 1.7
+* OpenJDK 1.8
 
 ## Image Creation
 
