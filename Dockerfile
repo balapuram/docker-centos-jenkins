@@ -24,6 +24,7 @@ RUN wget https://github.com/openshift/source-to-image/releases/download/v1.1.13/
  && gunzip source-to-image-v1.1.13-b54d75d3-linux-amd64.tar.gz \
  && tar -xvf source-to-image-v1.1.13-b54d75d3-linux-amd64.tar \
  && rm -rf source-to-image-v1.1.13-b54d75d3-linux-amd64.tar
+RUN chmod -R 777 /app
 # Clean up YUM when done.
 RUN yum clean all
 ADD scripts /scripts
