@@ -19,8 +19,8 @@ chown -R jenkins:jenkins $LIB_DIR
 chown -R jenkins:jenkins $CACHE_DIR
 chown -R jenkins:jenkins "$LOG_DIR/jenkins"
 
-echo "Starting Syslog-ng..."
-syslog-ng --no-caps
+#echo "Starting Syslog-ng..."
+#syslog-ng --no-caps
 
 echo "Starting SSHd..."
 /usr/sbin/sshd
