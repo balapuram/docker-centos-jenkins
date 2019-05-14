@@ -42,10 +42,6 @@ RUN touch /first_run
 # The --deaemon removed from the init file.
 ADD etc/jenkins /etc/init.d/jenkins
 RUN chmod +x /etc/init.d/jenkins
-# The key file copying to ci server to ssh to application servers
-COPY fdp_poc /app/fdp_poc
-RUN chmod 400 /app/fdp_poc \
- && chown -R jenkins:jenkins /app/fdp_poc
 EXPOSE 8080 22
 VOLUME ["/run", "/var/lib/jenkins", "/var/log" "/var/cache/jenkins/war"]
 # Starting jenkins
