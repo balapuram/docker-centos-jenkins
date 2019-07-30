@@ -31,10 +31,9 @@ $  docker build -t balapuram/dal_jenkins:1 .
 docker run  -it -d -p 8080:8080 -v Jenkins_home:/var/lib/jenkins -v /var/run/docker.sock:/var/run/docker.sock balapuram/dal_jenkins:1
 
 
-# Accessing Jenkins UI
+## Accessing Jenkins Web UI
 
-http://<host ip>:8080 
- 
+http://<host ip>:8080
 Start creating projects.!!
 
 Please dorp a note if you would like to talk to me in this regard.
