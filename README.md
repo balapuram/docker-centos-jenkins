@@ -1,4 +1,6 @@
-# CentOS-Docker-Jenkins  ( Jenkins Container )
+ Jenkins as a Container 
+ 
+ # CentOS-Docker-Jenkins 
 
 A Dockerfile that produces a CentOS-based Docker image that will run the latest stable [Jenkins][jenkins].
 
