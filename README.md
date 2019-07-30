@@ -33,9 +33,9 @@ docker run  -it -d -p 8080:8080 -v Jenkins_home:/var/lib/jenkins -v /var/run/doc
 
 ## Accessing Jenkins Web UI
 
-http://<host ip>:8080
+http://hostname:8080
 Start creating projects.!!
 
-Please dorp a note if you would like to talk to me in this regard.
+Please dorp a note if you have any queries.
 
 balapuram.b@gmail.com
