@@ -19,7 +19,7 @@ The build is based on [docker.io/balapuram/centos-base][docker-centos-base].
 
 ## Image Creation
 
-This example creates the image with the tag `balapuram/dal_jenkins`, but you can
+This example creates the image with the name `balapuram/dal_jenkins`, but you can
 change this to use your own username.
 
 ```
