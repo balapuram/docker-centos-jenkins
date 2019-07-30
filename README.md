@@ -1,4 +1,4 @@
-# docker-centos-jenkins
+# CentOS-Docker-Jenkins
 
 A Dockerfile that produces a CentOS-based Docker image that will run the latest stable [Jenkins][jenkins].
 
@@ -10,6 +10,10 @@ The build is based on [docker.io/balapuram/centos-base][docker-centos-base].
 
 * Jenkins
 * OpenJDK 1.8
+* Docker
+* cqlsh
+* sbt
+* sonar-scannar
 
 ## Image Creation
 
@@ -24,5 +28,8 @@ Alternately, you can run the following if you have *GNU Make* installed...
 
 ## Container Creation / Running
 
-docker run  -it -d --privileged -p 8080:8080 -v Akka_stream:/var/lib/jenkins -v /var/run/docker.sock:/var/run/docker.sock balapuram/dal_jenkins:1
+docker run  -it -d -p 8080:8080 -v Jenkins_home:/var/lib/jenkins -v /var/run/docker.sock:/var/run/docker.sock balapuram/dal_jenkins:1
 
+
+Please dorp a note if you would like to talk to me in this regard
+balapuram.b@gmail.com
